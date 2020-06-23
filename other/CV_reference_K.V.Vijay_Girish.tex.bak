@@ -1,0 +1,247 @@
+\documentclass[10pt]{article}
+\usepackage{charter}
+\usepackage{graphics}
+
+\usepackage{fullpage}
+\usepackage[colorlinks=false]{hyperref}
+\usepackage{currvita}
+
+% Better for lists with 1-2 items and short descriptions
+\newenvironment{sublist}{%
+	\begin{list}{}{%
+		\setlength{\itemsep}{0em}\setlength{\parsep}{0em}%
+		\setlength{\topsep}{0em}\setlength{\parskip}{0em}%
+	}%
+}%
+{ \end{list} }
+
+% Better for lists with more than 2 items and/or long descriptions
+\newenvironment{subbulletlist}{%
+	\begin{list}{\labelitemii}{%
+		\setlength{\topsep}{\itemsep}\setlength{\parskip}{\parsep}%
+	}%
+}%
+{ \end{list} }
+
+\pagestyle{empty}
+
+\begin{document}
+
+\newlength{\oldcvlabelwidth}
+\newlength{\oldcvlabelsep}
+
+\begin{cv}{{\large K Venkata Vijay Girish}\\
+{\normalsize  MILE Lab, Department of Electrical Engineering, \\Indian Institute of Science, Bangalore- 560012,
+\\
+Email: {\mdseries \href{mailto:vijay.girish@gmail.com}
+	{kv@ee.iisc.ernet.in, vijay.girish@gmail.com}}
+\hfill Phone: {\mdseries +91 9480515318} \hfill \\
+Web: {\mdseries \href{https://sites.google.com/site/kvvijaygirish/}
+	{https://sites.google.com/site/kvvijaygirish/}}}
+}
+
+\setlength{\oldcvlabelwidth}{\cvlabelwidth}
+\setlength{\oldcvlabelsep}{\cvlabelsep}
+
+\setlength{\cvlabelwidth}{1em}
+
+
+\setlength{\cvlabelwidth}{0em}
+\setlength{\cvlabelsep}{\labelsep}
+
+\begin{cvlist}{Research Interests}\item
+\begin{itemize}\itemsep=0.25em
+ 
+ \item Machine Listening: Source Separation, Phoneme Classification, Speech Processing
+
+\item Pattern Recognition, Machine Learning, Sparse Coding and Compressive sensing
+\item Signal Processing and its applications, Image Processing
+\end{itemize}
+\end{cvlist}
+
+
+\begin{cvlist}{Education}
+	\item \emph{Joined in August 2010 as a M.Sc(Engg), Systems and Signal Processing and upgraded to PhD in March 2012}, expected to complete by July 2015\\
+	Department of Electrical
+Engineering, Indian Institute of Science, Bangalore, GPA: 5.8/8.0
+	\begin{subbulletlist}
+		\item \emph{Research Guide: Prof. A. G. Ramakrishnan, Department of Electrical
+Engineering
+}		
+	\end{subbulletlist}
+	\begin{center}
+\begin{tabular}{|c|c|c|c|}
+	\hline
+	Term & Courses Credited  at IISc&  Credits& Grade\\
+	\hline
+	& Linear and Nonlinear Optimization & 3:0 & A\\
+	
+	August- December 2010 & Matrix Theory & 3:0& B\\
+	
+& Advanced Digital Signal Processing & 3:0& B\\
+&Stochastic Models and Applications&3:0&C\\
+\hline
+& Automatic Speech Recognition Algorithms & 3:0& B\\
+January- April 2011 & Speech Information Processing & 3:0& B\\
+& Pattern Recognition and Neural Networks
+&3:1 & B\\
+& Data Mining &3:1&C\\
+
+
+	 
+\hline
+
+\end{tabular}		
+	\end{center}
+	\item \emph{B.Tech., Electrical and Electronics Engineering}, August 2004- May 2008\\
+	National Institute of Technology Karnataka, Surathkal, GPA: 7.75/10.00
+	
+\end{cvlist}
+
+
+\begin{cvlist}{Research Publications}
+\item \textbf{Conference publications}
+\item Published:
+	\begin{itemize}\itemsep=0.25em
+	\item Sayan Ghosh, K V Vijay Girish, T.V. Sreenivas
+, \textit{Relationship between Indian Languages Using Long Distance Bigram Language Models}, Proc. International Conference on Natural Language Processing (ICON
+2011), Dec 16-19, 2011, Chennai, India, pp. 104-113
+
+
+\item
+Vikram Ramesh Lakkavalli, K V Vijay Girish, A G Ramakrishnan
+, \textit{Sub-band Envelope Approach to Obtain Instants of Significant Excitation in Speech}, Proc. National Conference on Communications (NCC 2012), Feb 3-5, 2012, Kharagpur, India, pp. 19
+
+
+	
+	\end{itemize}
+	
+	\item \textbf{Journal publication}
+\item  Under review:
+\begin{itemize}\itemsep=0.25em
+	\item Vikram Ramesh Lakkavalli, K V Vijay Girish, Harshavardhan S., A G Ramakrishnan
+, \textit{Robust estimation of glottal closure instants using
+dynamic selection of subband components}, IEEE
+Transactions on Audio,Speech and Language Processing
+	
+	
+	\end{itemize}
+\end{cvlist}
+
+
+
+\begin{cvlist}{Academic Projects:}
+\item \textbf{ During PhD} \textit{August 2010- current:}
+\begin{itemize}\itemsep=0.25em
+	\item
+	Relationship Between Indian Languages Using Bigram Language Models- Group
+project under Prof. T. V. Sreenivas of Dept of Electrical Communication Engineering,
+Indian Institute of Science
+
+\item
+Voiced and Unvoiced feature classification of Speech data using multiple features-
+Individual project under Prof. A. G. Ramakrishnan of Dept of Electrical
+Engineering, Indian Institute of Science
+
+\item
+Implementation of Modification of Pitch contour , Duration and Energy   for change in Prosody in Tamil Speech Synthesis under Prof. A. G. Ramakrishnan of Dept of Electrical
+Engineering, Indian Institute of Science
+\item
+Voice Modification system using change of sampling frequency and duration normalization under Prof. A. G. Ramakrishnan of Dept of Electrical
+Engineering, Indian Institute of Science
+\item
+Implementation of Parts of Speech and Pause Rules Tagging of Tamil text in Matlab and C under Prof. A. G. Ramakrishnan of Dept of Electrical
+Engineering, Indian Institute of Science
+\item
+Robust estimation of glottal closure instants using dynamic weighting of subband components in Speech under Prof. A. G. Ramakrishnan of Dept of Electrical
+Engineering, Indian Institute of Science
+
+
+
+	\end{itemize}
+
+\item \textbf{ During B.Tech} \textit{August 2004 - May 2008:}
+\begin{itemize}\itemsep=0.25em
+	\item \textit{Major Project:} Steady State Analysis of Unified Power Flow Controller using Matlab 5.3 and
+Simulink 3.0- group project under Dr. K.N. Shubhanga of Dept of Electrical and
+Electronics Engineering, NITK Surathkal
+
+\item
+Digital Quiz- group project under Mr. K. Manjunath
+Sharma of Dept of Electrical and Electronics
+Engineering, NITK Surathkal
+\item
+
+Pspice Simulation of high frequency signal only during
+negative half cycle of the power supply- individual
+project under Mr. A.R.Beig of Dept of Electrical and
+Electronics Engineering, NITK Surathkal
+
+\item
+Design and implementation of Badminton Scoreboard (for
+doubles match) using Xilinx VHDL software- individual project
+under Prof. P.Vittal of Dept of Electrical and
+Electronics Engineering, NITK Surathkal
+
+\item
+Graphic Equalizer implementation using Matlab 7.0
+- individual project under Prof. Jora M Gonda of Dept of
+Electrical and Electronics Engineering, NITK Surathkal
+
+\item
+Design of a a simplified bus model of Embedded
+Intel486 SX Processor using Xilinx VHDL software- group
+project under Prof. P.Vittal of Dept of Electrical
+and Electronics Engineering, NITK Surathkal
+
+\item
+2-Dimensional electromagnetic field simulation for
+high)performance electromechanical design using Maxwell
+SV software- group project under Dr.P.Duraikannu
+of Dept of Electrical and Electronics Engineering,
+NITK Surathkal
+
+\item
+Speed Control of DC Motor using PC Generated Pulse Width
+Modulation(Hardware Project)- group project under Mrs. Vinatha U. of
+Dept of Electrical and Electronics Engineering, NITK
+Surathkal
+
+\item
+Implementation of Image Processing Techniques using Graphical User
+Interface in Matlab 7.0.1- group project under Mrs. Vinatha U. of Dept of Electrical
+and Electronics Engineering, NITK Surathkal
+
+
+
+
+
+\end{itemize}
+\end{cvlist}
+
+
+
+
+
+\begin{cvlist}{Technical Experience}
+\item
+\begin{itemize}\itemsep=0.25em
+	\item Work experience of 2 years from August- 2008 to July- 2010 which includes 1st year as
+Graduate Engineer Trainee and 2nd year as a Senior Engineer in Relay and Integrated
+Solutions, Larsen and Toubro Limited, Mumbai. Profile includes development, Indepth testing, troubleshooting and analysis of new product, Intelligent Motor Protection Relay.
+
+
+	
+\end{itemize}
+\end{cvlist}
+
+
+
+
+
+\setlength{\cvlabelwidth}{\oldcvlabelwidth}
+\setlength{\cvlabelsep}{\oldcvlabelsep}
+
+\end{cv}
+\end{document}
+

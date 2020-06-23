@@ -1,0 +1,382 @@
+\documentclass[10pt]{article}
+\usepackage{charter}
+\usepackage{fullpage}
+\usepackage[colorlinks=false]{hyperref}
+\usepackage{currvita}
+
+% Better for lists with 1-2 items and short descriptions
+\newenvironment{sublist}{%
+	\begin{list}{}{%
+		\setlength{\itemsep}{0em}\setlength{\parsep}{0em}%
+		\setlength{\topsep}{0em}\setlength{\parskip}{0em}%
+	}%
+}%
+{ \end{list} }
+
+% Better for lists with more than 2 items and/or long descriptions
+\newenvironment{subbulletlist}{%
+	\begin{list}{\labelitemii}{%
+		\setlength{\topsep}{\itemsep}\setlength{\parskip}{\parsep}%
+	}%
+}%
+{ \end{list} }
+
+\pagestyle{empty}
+
+\begin{document}
+
+\newlength{\oldcvlabelwidth}
+\newlength{\oldcvlabelsep}
+
+\begin{cv}{{\large K Venkata Vijay Girish}\\
+{\normalsize  MILE Lab, Department of Electrical Engineering, \\Indian Institute of Science, Bangalore- 560012, INDIA
+\\
+Email: {\mdseries \href{mailto:vijay.girish@gmail.com}
+	{kv@ee.iisc.ernet.in, vijay.girish@gmail.com}}
+\hfill Phone: {\mdseries +91 9480515318} \hfill \\
+Web: {\mdseries \href{https://sites.google.com/site/kvvijaygirish/}
+	{https://sites.google.com/site/kvvijaygirish/}}}
+}
+
+\setlength{\oldcvlabelwidth}{\cvlabelwidth}
+\setlength{\oldcvlabelsep}{\cvlabelsep}
+
+\setlength{\cvlabelwidth}{1em}
+
+
+\setlength{\cvlabelwidth}{0em}
+\setlength{\cvlabelsep}{\labelsep}
+\begin{cvlist}{Date of Birth}\item
+23-10-1985
+\end{cvlist}
+\begin{cvlist}{Research Interests}\item
+\begin{itemize}\itemsep=0.25em
+ 
+ \item Machine Listening: Source Separation, Audio Signal Analysis,  Language / Speaker Classification, Detection of Transitions and Audio Source Classification in mixed signals	 
+
+\item Pattern Recognition, Machine Learning, Sparse Coding and Compressive sensing
+\item Signal Processing and its applications, Image Processing
+\end{itemize}
+\end{cvlist}
+
+
+\begin{cvlist}{Education}
+	\item \emph{Currently pursuing PhD, Systems and Signal Processing, August 2010- Present}, expected July 2016\\
+	Department of Electrical
+Engineering, Indian Institute of Science, Bangalore, GPA: 6.0/8.0
+	\begin{subbulletlist}
+		\item \emph{Research Advisors: Prof. A. G. Ramakrishnan, Department of Electrical Engineering, Indian Institute of Science and Dr. T. V. Ananthapadmanabha, Voice and Speech Systems, Bangalore
+}
+		
+	\end{subbulletlist}
+	\item \emph{B.Tech., Electrical and Electronics Engineering}, August 2004- May 2008\\
+	National Institute of Technology Karnataka, Surathkal, GPA: 7.75/10.00
+	\item \emph{Class- 10+2, CBSE}, May 2003 \\
+	Kendriya Vidyalaya No.-2, Kharagpur, Percentage: 82.0
+	\item \emph{Class- 10, CBSE}, May 2001 \\
+	Kendriya Vidyalaya No.-2, Kharagpur, Percentage: 75.8
+\end{cvlist}
+
+
+\begin{cvlist}{Research Publications}
+\item \textbf{Conference publications}
+\item Published:
+	\begin{itemize}\itemsep=0.25em
+	\item Sayan Ghosh, K V Vijay Girish, T.V. Sreenivas, \textit{Relationship between Indian Languages Using Long Distance Bigram Language Models}, Proc. International Conference on Natural Language Processing (ICON
+2011), Dec 16-19, 2011, Chennai, India, pp. 104-113
+
+
+\item
+Vikram Ramesh Lakkavalli, K V Vijay Girish, A G Ramakrishnan, \textit{Sub-band Envelope Approach to Obtain Instants of Significant Excitation in Speech}, Proc. National Conference on Communications (NCC 2012), Feb 3-5, 2012, Kharagpur, India, pp. 19
+
+\item Vikram R L, K V Vijay Girish, Harshavardhan S, A G Ramakrishnan, T V Ananthapadmanabha, 
+\textit{Subband Analysis of Linear Prediction Residual for the Estimation of Glottal Closure Instants}, Proc. IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2014), May 4-9, 2014, Florence, Italy
+
+\item	K V Vijay Girish, A G Ramakrishnan and T V Ananthapadmanabha, \textit{Hierarchical classification of speaker and background noise and estimation of SNR using sparse representation}, To be presented in Interspeech 2016, September 8-12, 2016, San Francisco
+	\end{itemize}
+	
+
+
+\end{cvlist}
+
+\begin{cvlist}{Technical Reports}
+\item
+\begin{itemize}
+\item T V Ananthapadmanabha, K V Vijay Girish, A G Ramakrishnan, \textit{Detection of transitions between broad phonetic classes in a speech signal}, arXiv, Submitted on 3 Nov 2014
+\item K V Vijay Girish, T V Ananthapadmanabha, A G Ramakrishnan, \textit{A dictionary learning and source recovery based approach to classify diverse audio sources}, arXiv, Submitted on 27 Oct 2015
+\end{itemize}
+\end{cvlist}
+
+\begin{cvlist}{Technical Skills}
+\item
+\begin{itemize}\itemsep=0.25em
+	\item Relevant Subjects:\\
+	\textbf{During B.Tech}  \textit{August 2004 - May 2008:}\\
+ \textit{Digital System Design,  Microprocessors,
+Computer Organization and Architecture}\\
+\textbf{During PhD} \textit{August 2010- current:}\\
+\textit{Matrix Theory,
+Linear and Non Linear Optimization, Probability Theory,  Convex Optimization,
+Advanced Digital Signal Processing,
+Pattern Recognition and Neural Networks, Machine Learning, Data Mining, Compressive Sensing and Sparse Signal Processing, Time Frequency Analysis, Speech Information Processing, Automatic Speech Recognition Algorithms, Digital Image Processing}
+
+
+
+	\item Programming languages known:
+ \textit{C, C++, Matlab, VHDL , 8051 Assembly language, SQL, Latex, Java
+and Foxpro}
+
+\item Softwares used: \textit{Maxwell, PSpice, Xilinx, Modelsim, Matlab, Simulink, Praat and Latex}
+\item Operating system: \textit{Worked on Windows XP and Linux}
+\item Others: \textit{Microsoft Office}
+
+
+
+	\end{itemize}
+
+\end{cvlist}
+
+%
+%\begin{cvlist}{Academic Projects:}
+%\item \textbf{ During PhD} \textit{August 2010- current:}
+%\begin{itemize}\itemsep=0.25em
+%	\item
+%	Relationship Between Indian Languages Using Bigram Language Models- Group
+%project under Prof. T. V. Sreenivas of Dept of Electrical Communication Engineering,
+%Indian Institute of Science
+%
+%\item
+%Voiced and Unvoiced feature classification of Speech data using multiple features-
+%Individual course project under Prof. A. G. Ramakrishnan of Dept of Electrical
+%Engineering, Indian Institute of Science
+%
+%\item
+%Implementation of Modification of Pitch contour , Duration and Energy   for change in Prosody in Tamil Speech Synthesis under Prof. A. G. Ramakrishnan of Dept of Electrical
+%Engineering, Indian Institute of Science
+%\item
+%Voice Modification system using change of sampling frequency and duration normalization under Prof. A. G. Ramakrishnan of Dept of Electrical
+%Engineering, Indian Institute of Science
+%\item
+%Implementation of Parts of Speech and Pause Rules Tagging of Tamil text in Matlab and C under Prof. A. G. Ramakrishnan of Dept of Electrical
+%Engineering, Indian Institute of Science
+%\item
+%Robust estimation of glottal closure instants using dynamic weighting of subband components in Speech under Prof. A. G. Ramakrishnan of Dept of Electrical
+%Engineering, Indian Institute of Science
+%
+%\item Subband Analysis of Linear Prediction Residual for the Estimation of Glottal Closure Instants under Dr. T. V. Ananthapadmanabha of Voice and Speech Systems, Bangalore and Prof. A. G. Ramakrishnan of Dept of Electrical Engineering, Indian Institute of Science
+%
+%\item Detection of transitions among broad phonetic classes in a speech signal
+%          using temporal features and a rule based approach under Dr. T. V. Ananthapadmanabha of Voice and Speech Systems, Bangalore and Prof. A. G. Ramakrishnan of Dept of Electrical Engineering, Indian Institute of Science
+%
+%\item A dictionary learning and source recovery based approach to classify diverse
+%                               audio sources under Dr. T. V. Ananthapadmanabha of Voice and Speech Systems, Bangalore and Prof. A. G. Ramakrishnan of Dept of Electrical Engineering, Indian Institute of Science
+%                               
+%\item Hierarchical classification of speaker and background noise and estimation of SNR using sparse representation under Dr. T. V. Ananthapadmanabha of Voice and Speech Systems, Bangalore and Prof. A. G. Ramakrishnan of Dept of Electrical Engineering, Indian Institute of Science
+%	\end{itemize}
+%
+%\item \textbf{ During B.Tech} \textit{August 2004 - May 2008:}
+%\begin{itemize}\itemsep=0.25em
+%	\item \textit{Major Project:} Steady State Analysis of Unified Power Flow Controller using Matlab 5.3 and
+%Simulink 3.0- group project under Dr. K.N. Shubhanga of Dept of Electrical and
+%Electronics Engineering, NITK Surathkal
+%
+%\item
+%Digital Quiz- group project under Mr. K. Manjunath
+%Sharma of Dept of Electrical and Electronics
+%Engineering, NITK Surathkal
+%\item
+%
+%Pspice Simulation of high frequency signal only during
+%negative half cycle of the power supply- individual
+%project under Mr. A.R.Beig of Dept of Electrical and
+%Electronics Engineering, NITK Surathkal
+%
+%\item
+%Design and implementation of Badminton Scoreboard (for
+%doubles match) using Xilinx VHDL software- individual project
+%under Prof. P.Vittal of Dept of Electrical and
+%Electronics Engineering, NITK Surathkal
+%
+%\item
+%Graphic Equalizer implementation using Matlab 7.0
+%- individual project under Prof. Jora M Gonda of Dept of
+%Electrical and Electronics Engineering, NITK Surathkal
+%
+%\item
+%Design of a a simplified bus model of Embedded
+%Intel486 SX Processor using Xilinx VHDL software- group
+%project under Prof. P.Vittal of Dept of Electrical
+%and Electronics Engineering, NITK Surathkal
+%
+%\item
+%2-Dimensional electromagnetic field simulation for
+%high)performance electromechanical design using Maxwell
+%SV software- group project under Dr.P.Duraikannu
+%of Dept of Electrical and Electronics Engineering,
+%NITK Surathkal
+%
+%\item
+%Speed Control of DC Motor using PC Generated Pulse Width
+%Modulation(Hardware Project)- group project under Mrs. Vinatha U. of
+%Dept of Electrical and Electronics Engineering, NITK
+%Surathkal
+%
+%\item
+%Implementation of Image Processing Techniques using Graphical User
+%Interface in Matlab 7.0.1- group project under Mrs. Vinatha U. of Dept of Electrical
+%and Electronics Engineering, NITK Surathkal
+%
+%
+%
+%
+%
+%\end{itemize}
+%\end{cvlist}
+
+\begin{cvlist}{Academic Achievements:}
+\item
+\begin{itemize}\itemsep=0.25em
+	\item
+Got through AIEEE 2004 with an All India Rank of 4525 and State Rank (West Bengal) of 53
+
+\item
+
+ Secured an All India Rank of 5439 in IIT-JEE 2004
+
+\item
+Got through GATE 2010 (Electrical Engineering) with 98.8 percentile
+
+\item
+Has been among top 3 students of the school consistently
+
+\item
+Distinctive performance in 2nd National Science Olympiad in 2000
+
+
+	\end{itemize}
+
+\end{cvlist}
+
+
+%
+%
+%\begin{cvlist}{Workshops and Conferences:}
+%\item
+%\begin{itemize}\itemsep=0.25em
+% \item Assisted Prof. A. G. Ramakrishnan in conducting a tutorial on Insights into Signal Processing,Transforms and Linear Algebra at International Conference on Biomedical Engineering, 2011 held at MIT Manipal, during 8-9 December, 2011
+%\item Attended  Centenary Conference, Electrical Engineering held at IISc Bangalore, during 14-17 December, 2011
+%\item Attended a Workshop on Image and Speech Processing, WISP-2011 held at IIIT Hyderabad,  on 17th December, 2011
+%
+%\item Attended WiSSAP-2012 on Compuatational Auditory Scene Analysis (CASA), held at IISc Bangalore, during 6-9 January, 2012
+%\item Attended  National Conference on Communications,  held at IIT Kharagpur, during 3-5 February, 2012
+%\item Attended  One Day Workshop on Image Processing Using LabVIEW,  held at IISc Bangalore, on 25 February, 2012
+%\item Attended One-day Workshop on Speech Processing and Applications, held at CMRIT Bangalore, on 21 June, 2012
+%\item Attended Winter School and Conference on Computational Aspects of Neural Engineering, held at IISc Bangalore, during  12 - 21 December, 2012
+%\item Attended WiSSAP-2013 on Statistical Parametric Speech Synthesis, held at IIT Madras, during 22-25 February, 2013
+%
+%\item Attended a 12-week course on the Science of Scientific Writing during August  to November, 2013 by Dr. Karthik Ramaswamy, held at Indian Institute of Science, Bangalore
+%
+%\item Attended IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2014) during  4-9 May, 2014 at Florence, Italy.
+%\item Attended WiSSAP-2015 on Production-Perception Based New Models of Speech Analysis held at Dhirubhai Ambani 
+%Institute of Information and Communication Technology (DA-IICT), Gandhinagar, India  during 4-7 January, 2015 
+%\item Attended Learning  sparse representations for Signal Processing held at IISc Bangalore, India during  20 - 22 February, 2015
+%\item Attended WiSSAP-2016 on Speech Prosody held at SSN College of Engineering, Chennai, India during 8-11 January, 2016
+%
+%	\end{itemize}
+%\end{cvlist}
+%
+
+
+
+\begin{cvlist}{Teaching Experience}
+
+\item 
+ \textbf{Linear and Nonlinear Optimization} offered  by Prof. Muthuvel Arigovindan at  Indian Institute of Science, Bangalore during 
+ August-December, 2013: Responsibilities include conducting tutorial classes  
+\item
+ \textbf{Speech Information Processing}  offered  by Prof. A G Ramakrishnan at  Indian Institute of Science, Bangalore during 
+  January-May, 2014: Responsibilities include   preparing assignments and projects
+  \item
+   \textbf{Matrix Theory}  offered  by Prof. A G Ramakrishnan at  Indian Institute of Science, Bangalore during 
+    August-December, 2014: Responsibilities include   preparing assignments, clearing doubts, evaluation and grading of students.
+      
+
+\end{cvlist}
+\begin{cvlist}{Technical Experience}
+\item
+\begin{itemize}\itemsep=0.25em
+	\item Work experience of 2 years from August- 2008 to July- 2010 which includes 1st year as
+Graduate Engineer Trainee and 2nd year as a Senior Engineer in Relay and Integrated
+Solutions, Larsen and Toubro Limited, Mumbai
+%\begin{itemize}
+% \item
+%Development of new product: Intelligent Motor Protection Relay, MCOMP
+%\item
+%Indepth testing, troubleshooting and analysis of new product
+%\item
+%New product documentation and management
+%\item
+%Development of Data Concentrator Systems
+%
+%\end{itemize}
+
+
+
+
+\item
+Industrial Training:
+Inplant Practical Training at the Bharat Heavy
+Electricals Limited, Electronics Division, Bangalore
+(May-June 2006)
+
+
+	
+\end{itemize}
+\end{cvlist}
+%
+%\begin{cvlist}{Hobbies and Extra-curricular activities:}
+%\item
+%\begin{itemize}\itemsep=0.25em
+%	\item
+%Bagged 2nd prize in Foxhunt in the TechFest Engineer 2006
+%conducted by NITK Surathkal
+%\item
+%Secured 5th position in Simplicity, an International
+%Online Matlab Programming contest conducted during
+%Engineer 2008, a Technical Festival conducted by NITK
+%Surathkal
+%
+%\item Bagged 3rd prize in Science Slam in Pravega Sci-Tech 2014 conducted by Swissnex at IISc Bangalore
+%\item
+%
+%
+%Active Member of  Spicmacay, Voice club, IEEE and Management Forum
+% at NITK Surathkal
+% \item Active member of Mess committee at IISc Bangalore from July 2013 - May 2015
+%\item
+%
+%Playing badminton, guitar,  photography,  running, swimming, biking, programming, technology, reading, writing blogs
+%
+%
+%	\end{itemize}
+%
+%\end{cvlist}
+
+%
+%\begin{cvlist}{Languages Known:}
+%\item
+%\begin{itemize}\itemsep=0.25em
+%	\item English, Hindi and Telugu
+%	\end{itemize}
+%
+%\end{cvlist}
+
+
+
+
+\setlength{\cvlabelwidth}{\oldcvlabelwidth}
+\setlength{\cvlabelsep}{\oldcvlabelsep}
+
+\end{cv}
+\end{document}
+

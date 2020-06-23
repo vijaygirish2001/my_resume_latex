@@ -1,0 +1,229 @@
+\documentclass[10pt]{article}
+\usepackage{charter}
+\usepackage{fullpage}
+\usepackage[colorlinks=false]{hyperref}
+\usepackage{currvita}
+
+% Better for lists with 1-2 items and short descriptions
+\newenvironment{sublist}{%
+	\begin{list}{}{%
+		\setlength{\itemsep}{0em}\setlength{\parsep}{0em}%
+		\setlength{\topsep}{0em}\setlength{\parskip}{0em}%
+	}%
+}%
+{ \end{list} }
+
+% Better for lists with more than 2 items and/or long descriptions
+\newenvironment{subbulletlist}{%
+	\begin{list}{\labelitemii}{%
+		\setlength{\topsep}{\itemsep}\setlength{\parskip}{\parsep}%
+	}%
+}%
+{ \end{list} }
+
+\pagestyle{empty}
+
+\begin{document}
+
+\newlength{\oldcvlabelwidth}
+\newlength{\oldcvlabelsep}
+
+\begin{cv}{{\large K Venkata Vijay Girish}\\
+{\normalsize  MILE Lab, Department of Electrical Engineering, \\Indian Institute of Science, Bangalore- 560012, INDIA
+\\
+Email: {\mdseries \href{mailto:vijay.girish@gmail.com}
+	{kv@ee.iisc.ernet.in, vijay.girish@gmail.com}}
+\hfill Phone: {\mdseries +91 9480515318} \hfill \\
+Web: {\mdseries \href{https://sites.google.com/site/kvvijaygirish/}
+	{https://sites.google.com/site/kvvijaygirish/}}}
+}
+
+\setlength{\oldcvlabelwidth}{\cvlabelwidth}
+\setlength{\oldcvlabelsep}{\cvlabelsep}
+
+\setlength{\cvlabelwidth}{1em}
+
+
+\setlength{\cvlabelwidth}{0em}
+\setlength{\cvlabelsep}{\labelsep}
+\begin{cvlist}{Date of Birth}\item
+23-10-1985
+\end{cvlist}
+\begin{cvlist}{Research Interests}\item
+\begin{itemize}\itemsep=0.25em
+ \item Machine Learning, Data Analytics and Audio Signal Processing
+ 
+% 
+\item Sparse Signal Processing, Incoherent Dictionary Learning and Adaptation, Image and Video  Processing
+\item Machine Listening: Audio Source Classification pertaining to Speaker, Background Noise and Language Classification, Source Separation, Audio Signal Analysis and Detection of Transitions
+Processing
+\end{itemize}
+\end{cvlist}
+
+
+\begin{cvlist}{Education}
+	\item \emph{Currently pursuing PhD, Systems and Signal Processing, August 2010- Present}, expected January 2017\\
+	Department of Electrical
+Engineering, Indian Institute of Science, Bangalore, GPA: 6.0/8.0
+	\begin{subbulletlist}
+		\item \emph{Research Advisors: Prof. A. G. Ramakrishnan, Department of Electrical Engineering, Indian Institute of Science and Dr. T. V. Ananthapadmanabha, Voice and Speech Systems, Bangalore
+}
+		
+	\end{subbulletlist}
+	\item \emph{B.Tech., Electrical and Electronics Engineering}, August 2004- May 2008\\
+	National Institute of Technology Karnataka, Surathkal, GPA: 7.75/10.00
+	\item \emph{Class- 10+2, CBSE}, May 2003 \\
+	Kendriya Vidyalaya No.-2, Kharagpur, Percentage: 82.0
+	\item \emph{Class- 10, CBSE}, May 2001 \\
+	Kendriya Vidyalaya No.-2, Kharagpur, Percentage: 75.8
+\end{cvlist}
+
+
+\begin{cvlist}{Research Publications}
+\item \textbf{Conference publications}
+\item Published:
+	\begin{itemize}\itemsep=0.25em
+	\item Sayan Ghosh, K V Vijay Girish, T.V. Sreenivas, \textit{Relationship between Indian Languages Using Long Distance Bigram Language Models}, Proc. International Conference on Natural Language Processing (ICON
+2011), Dec 16-19, 2011, Chennai, India, pp. 104-113
+
+
+\item
+Vikram Ramesh Lakkavalli, K V Vijay Girish, A G Ramakrishnan, \textit{Sub-band Envelope Approach to Obtain Instants of Significant Excitation in Speech}, Proc. National Conference on Communications (NCC 2012), Feb 3-5, 2012, Kharagpur, India, pp. 19
+
+\item Vikram R L, K V Vijay Girish, Harshavardhan S, A G Ramakrishnan, T V Ananthapadmanabha, 
+\textit{Subband Analysis of Linear Prediction Residual for the Estimation of Glottal Closure Instants}, Proc. IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2014), May 4-9, 2014, Florence, Italy
+
+\item	K V Vijay Girish, A G Ramakrishnan and T V Ananthapadmanabha, \textit{Hierarchical classification of speaker and background noise and estimation of SNR using sparse representation}, Interspeech 2016, September 8-12, 2016, San Francisco
+	\end{itemize}
+\item Submitted:
+
+\begin{itemize}
+\item  K V Vijay Girish, Veena Vijai and A G Ramakrishnan,  \textit{Relationship between spoken Indian languages by clustering of long distance bigram features of speech}, submitted to INDICON 2016
+
+\item  K V Vijay Girish, T V Ananthapadmanabha and A G Ramakrishnan,  \textit{Cosine similarity based dictionary learning and source recovery for classification of diverse audio sources}, submitted to INDICON 2016
+
+\end{itemize}
+
+	
+
+
+\end{cvlist}
+
+\begin{cvlist}{Technical Reports}
+\item
+\begin{itemize}
+\item T V Ananthapadmanabha, K V Vijay Girish, A G Ramakrishnan, \textit{Detection of transitions between broad phonetic classes in a speech signal}, 	arXiv:1411.0370 [cs.SD]
+%\item K V Vijay Girish, T V Ananthapadmanabha, A G Ramakrishnan, \textit{A dictionary learning and source recovery based approach to classify diverse audio sources}, arXiv, Submitted on 27 Oct 2015
+
+\item  K V Vijay Girish, A G Ramakrishnan and T V Ananthapadmanabha,  \textit{Adaptive dictionary based approach for background noise and speaker classification and subsequent source separation}, 	arXiv:1609.09764 [cs.SD]
+\end{itemize}
+\end{cvlist}
+
+\begin{cvlist}{Technical Skills}
+\item
+\begin{itemize}\itemsep=0.25em
+	\item Relevant Subjects:
+
+\textit{Matrix Theory,
+Linear and Non Linear Optimization, Probability Theory,   Optimization,
+Advanced Digital Signal Processing,
+Pattern Recognition and Neural Networks, Data Mining, Compressive Sensing and Sparse Signal Processing, Speech Information Processing, Automatic Speech Recognition Algorithms}
+
+
+
+	\item Programming languages known:
+ \textit{C, C++, Matlab, VHDL}
+
+
+\item Operating system: \textit{Worked on Windows XP and Linux}
+
+
+
+	\end{itemize}
+
+\end{cvlist}
+
+
+
+\begin{cvlist}{Project Mentorship}
+\item
+\begin{itemize}
+
+
+\item Veena Vijai, from Birla Institute of Technology and Science, Pilani - K. K. Birla Goa Campus  on Relationship between spoken Indian languages by clustering of long distance bigram features of speech, May-July, 2016
+
+\item B Shubashree, from SSN College of Engineering, Chennai on Unsupervised background noise change identification using dictionary learning, June- August, 2016
+\end{itemize}
+
+\end{cvlist}
+
+
+
+
+
+
+\begin{cvlist}{Teaching Experience}
+
+\item 
+ \textbf{Linear and Nonlinear Optimization} offered  by Prof. Muthuvel Arigovindan at  Indian Institute of Science, Bangalore during 
+ August-December, 2013: Responsibilities include conducting tutorial classes  
+\item
+ \textbf{Speech Information Processing}  offered  by Prof. A G Ramakrishnan at  Indian Institute of Science, Bangalore during 
+  January-May, 2014: Responsibilities include   preparing assignments and projects
+  \item
+   \textbf{Matrix Theory}  offered  by Prof. A G Ramakrishnan at  Indian Institute of Science, Bangalore during 
+    August-December, 2014: Responsibilities include   preparing assignments, clearing doubts, evaluation and grading of students.
+      
+
+\end{cvlist}
+\begin{cvlist}{Technical Experience}
+\item
+\begin{itemize}\itemsep=0.25em
+	\item Work experience of 2 years from August- 2008 to July- 2010 which includes 1st year as
+Graduate Engineer Trainee and 2nd year as a Senior Engineer in Relay and Integrated
+Solutions, Larsen and Toubro Limited, Mumbai
+%\begin{itemize}
+% \item
+%Development of new product: Intelligent Motor Protection Relay, MCOMP
+%\item
+%Indepth testing, troubleshooting and analysis of new product
+%\item
+%New product documentation and management
+%\item
+%Development of Data Concentrator Systems
+%
+%\end{itemize}
+
+
+
+
+\item
+Industrial Training:
+Inplant Practical Training at the Bharat Heavy
+Electricals Limited, Electronics Division, Bangalore
+(May-June 2006)
+
+
+	
+\end{itemize}
+\end{cvlist}
+
+
+
+\begin{cvlist}{Languages Known:}
+\item
+\begin{itemize}\itemsep=0.25em
+	\item English, Hindi and Telugu
+	\end{itemize}
+
+\end{cvlist}
+
+
+
+
+\setlength{\cvlabelwidth}{\oldcvlabelwidth}
+\setlength{\cvlabelsep}{\oldcvlabelsep}
+
+\end{cv}
+\end{document}
+
